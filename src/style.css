@@ -42,5 +42,44 @@ form {
   width: 100px;
   height: 50px;
   font-size: 15px;
+  font-weight: 800;
   border: 1px;
+}
+
+.current-city {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.current-weather {
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.weather-now strong {
+  color: #1f6f78;
+}
+
+.current-temp {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  top: -210px;
+}
+
+.weather-icon {
+  position: relative;
+  top: -10px;
+  font-size: 70px;
+}
+
+.temp {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.degree {
+  font-size: 20px;
+  position: relative;
+  top: 10px;
 }
