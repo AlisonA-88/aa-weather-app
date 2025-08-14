@@ -52,6 +52,7 @@ form {
 }
 
 .current-weather {
+  margin-top: 50px;
   padding-bottom: 50px;
   margin-bottom: 50px;
 }
@@ -64,22 +65,23 @@ form {
   display: flex;
   justify-content: end;
   position: relative;
-  top: -210px;
+  top: -220px;
+  padding-right: 55px;
 }
 
 .weather-icon {
   position: relative;
-  top: -10px;
+  top: 10px;
   font-size: 70px;
 }
 
 .temp {
-  font-size: 60px;
+  font-size: 80px;
   font-weight: 600;
 }
 
 .degree {
-  font-size: 20px;
+  font-size: 40px;
   position: relative;
   top: 10px;
 }
