@@ -55,6 +55,7 @@ form {
 .current-weather {
   margin-top: 50px;
   margin-bottom: 50px;
+  padding-left: 25px;
 }
 
 .weather-now strong {
@@ -66,7 +67,7 @@ form {
   justify-content: end;
   position: relative;
   top: -180px;
-  padding-right: 55px;
+  padding-right: 25px;
 }
 
 .weather-icon {
