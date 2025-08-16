@@ -72,7 +72,7 @@ form {
 
 .weather-icon {
   position: relative;
-  top: 0px;
+  top: 0%;
   font-size: 70px;
 }
 
@@ -98,4 +98,8 @@ form {
 footer {
   text-align: center;
   font-size: 15px;
+}
+
+.link {
+  color: #1f6f78;
 }
