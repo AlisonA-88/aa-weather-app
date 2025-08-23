@@ -6,6 +6,10 @@ body {
   background: #3baea0;
 }
 
+main {
+  height: 400px;
+}
+
 .container {
   display: block;
   margin: 0 auto;
@@ -104,6 +108,13 @@ footer {
   color: #1f6f78;
 }
 
+.weather-forecast {
+  position: relative;
+  top: -100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .weather-forecast-day {
   margin-bottom: 50px;
 }
@@ -122,11 +133,14 @@ footer {
 }
 
 .weather-forecast-temp {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
 }
 
 .weather-forecast-temp-high {
   color: #1f6f78;
+  padding: 0 10px;
 }
 
 .weather-forecast-temp-low {
