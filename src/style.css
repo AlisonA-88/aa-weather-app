@@ -103,3 +103,32 @@ footer {
 .link {
   color: #1f6f78;
 }
+
+.weather-forecast-day {
+  margin-bottom: 50px;
+}
+
+.weather-forecast-date {
+  text-align: center;
+  color: #1f6f78;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.weather-forecast-icon {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.weather-forecast-temp {
+  text-align: center;
+}
+
+.weather-forecast-temp-high {
+  color: #1f6f78;
+}
+
+.weather-forecast-temp-low {
+  color: #3baea0;
+}
